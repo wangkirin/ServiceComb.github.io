@@ -2,9 +2,11 @@
 t:
   en:
     main:
-      - title: "Quick Start"
+      - title: "Quick Start - Java"
         url: /docs/quick-start/
-      - title: "Users"
+      - title: "Quick Start - Golang"
+        url: /golang/quick-start/
+      - title: "Users - Java"
         url: /users/
       - title: "Developers"
         url: /developers/
@@ -31,6 +33,12 @@ t:
             url: /docs/quick-start-advance/distributed-tracing/
       - title: "Data Consistency Solution"
         url: /docs/quick-start-dataconsistency/
+
+    golang:
+      - title: "Quick Start"
+        url: /golang/quick-start/
+      - title: "Basic - Develop microservice application in minutes"
+        url: /golang/quick-start-bmi/
 
     users:
       - title: User Guide
@@ -127,6 +135,8 @@ t:
         url: /cn/users/
       - title: "开发者手册"
         url: /cn/developers/
+      - title: "Go-chassis"
+        url: /golang/
       - title: "博文"
         url: /cn/year-archive/
       - title: "常见问题"
@@ -237,3 +247,4 @@ t:
         url: /cn/faqs/
       - title: "华为公有云常见问题"
         url: /cn/faqs/faqs-huawei-cloud/
+

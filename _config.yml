@@ -119,6 +119,7 @@ include:
   - _docs
   - _users
   - _faqs
+  - _golang
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -239,6 +240,18 @@ defaults:
       comments: false
       sidebar:
         nav: "docs"
+  # _golang
+  - scope:
+      path: "_golang"
+      type: pages
+    values:
+      layout: single
+      read_time: false
+      author_profile: false
+      share: false
+      comments: false
+      sidebar:
+        nav: "golang"
   # _faqs
   - scope:
       path: "_faqs"
